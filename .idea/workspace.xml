@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abdbfda8-46d9-4f2d-a4ea-6e91d56fc486" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookOperationsTest.java" afterPath="" />
-    </list>
+    <list default="true" id="abdbfda8-46d9-4f2d-a4ea-6e91d56fc486" name="Default" comment="" />
     <ignored path="checkpoint-one.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,12 +22,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BookQueueComparatorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookQueueComparatorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookQueueComparatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0882353">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaffTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/StaffTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.72794116">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+              <folding>
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,6 +126,8 @@
       <list>
         <option value="$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookTest.java" />
         <option value="$PROJECT_DIR$/test/com/andela/gkuti/library/test/MemberTest.java" />
+        <option value="$PROJECT_DIR$/test/com/andela/gkuti/library/test/Staff.java" />
+        <option value="$PROJECT_DIR$/test/com/andela/gkuti/library/test/StaffTest.java" />
       </list>
     </option>
   </component>
@@ -203,6 +222,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.andela.gkuti.library.test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test/com/andela/gkuti/library/test" />
     </key>
@@ -620,9 +642,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookQueueComparatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0882353">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/StaffTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72794116">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
