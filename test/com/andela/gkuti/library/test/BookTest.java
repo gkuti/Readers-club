@@ -1,8 +1,8 @@
 package com.andela.gkuti.library.test;
 
+import com.andela.gkuti.library.Book;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class BookTest {

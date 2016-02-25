@@ -1,30 +1,35 @@
 package com.andela.gkuti.library.test;
 
+import com.andela.gkuti.library.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.PriorityQueue;
-
 import static org.junit.Assert.*;
 
 public class LibraryOperationTest {
-    libraryOperations = new Library();
-    bookList = new ArrayList<Book>();
-    member1 = new Student("Kuti Gbolahan", "21 onabola street, somolu", 1, "Laspotech", "Computer Science", "Science");
-    member2 = new Staff("Kayode Olowu", "1 boyega street, sogunle", 2, 45000, 9, "Accounting");
-    member3 = new Student("Samuel Okonkwo", "37 calabar street, masha", 3, "Laspotech", "History", "Art");
-    book1 = new Book("Harry Porter", "978-0439139601", "JK Rolins", 2);
-    book2 = new Book("The 3 Musketeers", "978-1853260407", "Alexandre Dumas", 1);
-    book3 = new Book("Spatial Mathematics", "978-1466505322", "Sandra Lach A.", 0);
-    book4 = new Book("The Trials of Brother Jero and The Strong Breed", "978-0822210900", "Wole Soyinka", 4);
-    bookQueueComparator = new BookQueueComparator();
-    bookQueue = new PriorityQueue<Member>(bookQueueComparator);
-        /*bookQueue.add(member1);
-        bookQueue.add(member2);
-        bookQueue.add(member3);*/
-}
+    Book book1,book2,book3,book4;
+    Member member1,member2,member3;
+    ArrayList<Book> bookList;
+    LibraryOperations libraryOperations;
+    PriorityQueue<Member> bookQueue;
+    BookQueueComparator bookQueueComparator;
+    @Before
+    public void setUp() throws Exception {
+        libraryOperations = new Library();
+        bookList = new ArrayList<Book>();
+        member1 = new Student("Kuti Gbolahan", "21 onabola street, somolu", 1, "Laspotech", "Computer Science", "Science");
+        member2 = new Staff("Kayode Olowu", "1 boyega street, sogunle", 2, 45000, 9, "Accounting");
+        member3 = new Student("Samuel Okonkwo", "37 calabar street, masha", 3, "Laspotech", "History", "Art");
+        book1 = new Book("Harry Porter", "978-0439139601", "JK Rolins", 2);
+        book2 = new Book("The 3 Musketeers", "978-1853260407", "Alexandre Dumas", 1);
+        book3 = new Book("Spatial Mathematics", "978-1466505322", "Sandra Lach A.", 0);
+        book4 = new Book("The Trials of Brother Jero and The Strong Breed", "978-0822210900", "Wole Soyinka", 4);
+        bookQueueComparator = new BookQueueComparator();
+        bookQueue = new PriorityQueue<Member>(bookQueueComparator);
+    }
+
     @After
     public void tearDown() throws Exception {
         libraryOperations = null;
