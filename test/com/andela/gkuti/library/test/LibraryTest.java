@@ -1,5 +1,6 @@
 package com.andela.gkuti.library.test;
 
+import com.andela.gkuti.library.*;
 import org.junit.Before;
 import org.junit.Test;
 
