@@ -144,4 +144,13 @@ public class LibraryTest {
         library.borrowBook(book1, member1,member2,member3);
         assertNotNull(library.getbookAndBorrowers(book1));
     }
+    @Test
+    public void isBookInLibrary() throws Exception {
+        library.addBook(book1);
+        library.addBook(book2);
+        library.addBook(book3);
+        Book book5 = new Book("The Trials of Brother Jero and The Strong Breed", "978-0822210900", "Wole Soyinka", 4);
+        assertFalse("expect to return false", library.isBookInLibrary(book5));
+        assertTrue("expect to return true", library.isBookInLibrary(book2));
+    }
 }
