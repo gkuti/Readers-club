@@ -56,6 +56,13 @@ public class LibraryOperations {
 	public boolean removeBook(Book book) {
 		return bookList.remove(book);
 	}
+
+	/**Remove books in the library from a list.
+	 *
+	 * @param bookList the List that contains books to be removed
+	 * @return the number of books removed
+	 */
+
 	public int removeBookList(ArrayList<Book> bookList) {
 		int removed = 0;
 		for (Book book : bookList) {
@@ -66,10 +73,11 @@ public class LibraryOperations {
 		return removed;
 	}
 
-	/**Remove books in the library from a list.
+	/**Adds member to the Library.
 	 *
-	 * @param bookList the List that contains books to be removed
-	 * @return the number of books removed
+	 * @param member to be added
+	 * @return true if member was added
+	 * @throws Exception if the Thread was interrupted
 	 */
 
 	public boolean registerMember(Member member) throws Exception  {
@@ -79,10 +87,10 @@ public class LibraryOperations {
 		return memberList.add(member);
 	}
 
-	/**Adds member to the Library.
+	/**Adds member to the Library from a List
 	 *
-	 * @param member to be added
-	 * @return true if member was added
+	 * @param memberList the list of members
+	 * @return the total list of members
 	 * @throws Exception if the Thread was interrupted
 	 */
 
@@ -93,11 +101,9 @@ public class LibraryOperations {
 		return memberList.size();
 	}
 
-	/**Adds member to the Library from a List
+	/**Return the list of members
 	 *
-	 * @param memberList the list of members
-	 * @return the total list of members
-	 * @throws Exception if the Thread was interrupted
+	 * @return Arraylist of member
 	 */
 
 	public ArrayList<Member> getMemberList(){

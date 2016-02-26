@@ -19,7 +19,7 @@ public class Student extends Member {
 	 * @param subjectOfInterest subject of interest
 	 * @param department department of student
 	 */
-	
+
 	public Student(String name, String address, int memberId, String institution, String subjectOfInterest, String department) {
 		super(name, address, memberId);
 		this.institution = institution;
