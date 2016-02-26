@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abdbfda8-46d9-4f2d-a4ea-6e91d56fc486" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/Book.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/BookQueueComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/Member.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/Staff.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/Student.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/checkpoint-one/com/andela/gkuti/library/test/BookQueueComparatorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/checkpoint-one/com/andela/gkuti/library/test/BookTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/checkpoint-one/com/andela/gkuti/library/test/LibraryOperationTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/checkpoint-one/com/andela/gkuti/library/test/LibraryTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/checkpoint-one/com/andela/gkuti/library/test/MemberTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/checkpoint-one/com/andela/gkuti/library/test/StaffTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/checkpoint-one/com/andela/gkuti/library/test/StudentTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/Book.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/BookQueueComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/Member.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/Staff.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/Student.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookQueueComparatorTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryOperationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/MemberTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/StaffTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/StudentTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/Library.class" afterPath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/Library.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/LibraryOperations.class" afterPath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/LibraryOperations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/Library.java" afterPath="$PROJECT_DIR$/src/com/andela/gkuti/library/Library.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/LibraryOperations.java" afterPath="$PROJECT_DIR$/src/com/andela/gkuti/library/LibraryOperations.java" />
-    </list>
+    <list default="true" id="abdbfda8-46d9-4f2d-a4ea-6e91d56fc486" name="Default" comment="" />
     <ignored path="checkpoint-one.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
