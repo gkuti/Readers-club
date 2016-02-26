@@ -47,6 +47,8 @@ public class LibraryTest {
         assertEquals("expect to return 2", 2, library.borrowBook(book1, member1,member2,member3));
         assertEquals("expect to return 1", 1, library.borrowBook(book2, member1,member2,member3));
         assertEquals("expect to return 0", 0, library.borrowBook(book3, member2,member3));
+        Book book5 = new Book("The Trials of Brother Jero and The Strong Breed", "978-0822210900", "Wole Soyinka", 4);
+        assertEquals("expect to return 0", 0, library.borrowBook(book5, member2,member3));
     }
 
     @Test
@@ -91,11 +93,12 @@ public class LibraryTest {
         library.registerMember(member1);
         library.registerMember(member2);
         library.registerMember(member3);
-        library.addBook(book1);
         book1 = new Book("Harry Porter", "978-0439139601", "JK Rolins", 2);
+        library.addBook(book1);
         library.borrowBook(book1, member1,member2,member3);
         assertEquals("expect borrower to be student object", member1, library.borrower(0));
         book1 = new Book("Harry Porter", "978-0439139601", "JK Rolins", 2);
+        library.addBook(book1);
         library.borrowBook(book1, member1,member2,member3);
         assertEquals("expect borrower to be staff object", member2, library.borrower(1));
     }
@@ -140,5 +143,14 @@ public class LibraryTest {
         library.addBook(book1);
         library.borrowBook(book1, member1,member2,member3);
         assertNotNull(library.getbookAndBorrowers(book1));
+    }
+    @Test
+    public void isBookInLibrary() throws Exception {
+        library.addBook(book1);
+        library.addBook(book2);
+        library.addBook(book3);
+        Book book5 = new Book("The Trials of Brother Jero and The Strong Breed", "978-0822210900", "Wole Soyinka", 4);
+        assertFalse("expect to return false", library.isBookInLibrary(book5));
+        assertTrue("expect to return true", library.isBookInLibrary(book2));
     }
 }

@@ -95,10 +95,13 @@ public class LibraryOperations {
 	 */
 
 	public int registerMemberList(ArrayList<Member> memberList) throws Exception {
+		int added = 0;
 		for (Member member : memberList) {
-			registerMember(member);
+			if (registerMember(member) == true) {
+				added++;
+			}
 		}
-		return memberList.size();
+		return added;
 	}
 
 	/**Return the list of members
