@@ -120,6 +120,13 @@ public class Library extends LibraryOperations{
 	public void setbookAndBorrowers(Book book){
 		bookAndBorrower.put(book, getBorrowerList());
 	}
+	
+	/**Check if the specified book is the Library
+	 *
+	 * @param book the book to check
+	 * @return true if book is in Library
+	 */
+
 	public boolean isBookInLibrary(Book book){
 		boolean value = false;
 		ArrayList<Book> bookList = getBookList();
