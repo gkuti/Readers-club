@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abdbfda8-46d9-4f2d-a4ea-6e91d56fc486" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/Library.java" afterPath="$PROJECT_DIR$/src/com/andela/gkuti/library/Library.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/LibraryOperations.java" afterPath="$PROJECT_DIR$/src/com/andela/gkuti/library/LibraryOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/model/Book.java" afterPath="$PROJECT_DIR$/src/com/andela/gkuti/model/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/model/Member.java" afterPath="$PROJECT_DIR$/src/com/andela/gkuti/model/Member.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/model/Staff.java" afterPath="$PROJECT_DIR$/src/com/andela/gkuti/model/Staff.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/model/Student.java" afterPath="$PROJECT_DIR$/src/com/andela/gkuti/model/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/util/BookQueueComparator.java" afterPath="$PROJECT_DIR$/src/com/andela/gkuti/util/BookQueueComparator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/test/LibraryOperationTest.java" afterPath="$PROJECT_DIR$/test/com/andela/gkuti/test/LibraryOperationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/test/MemberTest.java" afterPath="$PROJECT_DIR$/test/com/andela/gkuti/test/MemberTest.java" />
     </list>
     <ignored path="checkpoint-one.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,20 +42,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryOperations.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LibraryOperations.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/LibraryOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.185184">
-              <caret line="146" column="40" selection-start-line="146" selection-start-column="40" selection-end-line="146" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.6991404">
+              <caret line="106" column="7" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
               <folding>
-                <element signature="e#2340#2341#0" expanded="true" />
-                <element signature="e#2364#2365#0" expanded="true" />
-                <element signature="e#2511#2512#0" expanded="true" />
-                <element signature="e#2550#2551#0" expanded="true" />
-                <element signature="e#3026#3027#0" expanded="true" />
-                <element signature="e#3057#3058#0" expanded="true" />
-                <element signature="e#3168#3169#0" expanded="true" />
-                <element signature="e#3190#3191#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+                <element signature="e#2414#2415#0" expanded="true" />
+                <element signature="e#2438#2439#0" expanded="true" />
+                <element signature="e#2585#2586#0" expanded="true" />
+                <element signature="e#2624#2625#0" expanded="true" />
+                <element signature="e#3100#3101#0" expanded="true" />
+                <element signature="e#3131#3132#0" expanded="true" />
+                <element signature="e#3242#3243#0" expanded="true" />
+                <element signature="e#3264#3265#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,18 +111,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4512894">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state vertical-scroll-proportion="-11.666667">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,10 +178,10 @@
         <option value="$PROJECT_DIR$/test/com/andela/gkuti/test/MemberTest.java" />
         <option value="$PROJECT_DIR$/test/com/andela/gkuti/test/LibraryOperationTest.java" />
         <option value="$PROJECT_DIR$/src/com/andela/gkuti/util/BookQueueComparator.java" />
-        <option value="$PROJECT_DIR$/src/com/andela/gkuti/library/LibraryOperations.java" />
         <option value="$PROJECT_DIR$/src/com/andela/gkuti/model/Member.java" />
         <option value="$PROJECT_DIR$/src/com/andela/gkuti/model/Staff.java" />
         <option value="$PROJECT_DIR$/src/com/andela/gkuti/model/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/andela/gkuti/library/LibraryOperations.java" />
       </list>
     </option>
   </component>
@@ -860,12 +856,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1049,23 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/LibraryOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.185184">
-          <caret line="146" column="40" selection-start-line="146" selection-start-column="40" selection-end-line="146" selection-end-column="40" />
-          <folding>
-            <element signature="e#2340#2341#0" expanded="true" />
-            <element signature="e#2364#2365#0" expanded="true" />
-            <element signature="e#2511#2512#0" expanded="true" />
-            <element signature="e#2550#2551#0" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-            <element signature="e#3057#3058#0" expanded="true" />
-            <element signature="e#3168#3169#0" expanded="true" />
-            <element signature="e#3190#3191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Member.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1102,15 +1081,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4512894">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state vertical-scroll-proportion="-11.666667">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/LibraryOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6991404">
+          <caret line="106" column="7" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
+          <folding>
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#2414#2415#0" expanded="true" />
+            <element signature="e#2438#2439#0" expanded="true" />
+            <element signature="e#2585#2586#0" expanded="true" />
+            <element signature="e#2624#2625#0" expanded="true" />
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3131#3132#0" expanded="true" />
+            <element signature="e#3242#3243#0" expanded="true" />
+            <element signature="e#3264#3265#0" expanded="true" />
           </folding>
         </state>
       </provider>
