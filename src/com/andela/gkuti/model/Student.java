@@ -1,4 +1,4 @@
-package com.andela.gkuti.library;
+package com.andela.gkuti.model;
 
 public class Student extends Member {
 	private String subjectOfInterest;

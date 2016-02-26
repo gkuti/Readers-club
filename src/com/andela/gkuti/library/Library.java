@@ -1,4 +1,8 @@
 package com.andela.gkuti.library;
+import com.andela.gkuti.model.Book;
+import com.andela.gkuti.util.BookQueueComparator;
+import com.andela.gkuti.model.Member;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.PriorityQueue;
@@ -42,7 +46,7 @@ public class Library extends LibraryOperations{
 		setBorrowerList();
 		return borrowerList.get(position);
 	}
-	public ArrayList<Member> getBorrowersList() {
+	public ArrayList<Member> getBorrowerList() {
 		setBorrowerList();
 		return borrowerList;
 	}
@@ -52,7 +56,7 @@ public class Library extends LibraryOperations{
 
 	}
 	public void setbookAndBorrowers(Book book){
-		bookAndBorrower.put(book, getBorrowersList());
+		bookAndBorrower.put(book, getBorrowerList());
 	}
 
 }

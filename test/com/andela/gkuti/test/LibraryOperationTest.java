@@ -1,6 +1,12 @@
-package com.andela.gkuti.library.test;
+package com.andela.gkuti.test;
 
-import com.andela.gkuti.library.*;
+import com.andela.gkuti.library.Library;
+import com.andela.gkuti.library.LibraryOperations;
+import com.andela.gkuti.model.Book;
+import com.andela.gkuti.model.Member;
+import com.andela.gkuti.model.Staff;
+import com.andela.gkuti.model.Student;
+import com.andela.gkuti.util.BookQueueComparator;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

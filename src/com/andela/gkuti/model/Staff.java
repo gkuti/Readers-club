@@ -1,4 +1,4 @@
-package com.andela.gkuti.library;
+package com.andela.gkuti.model;
 
 public class Staff extends Member {
 	private int salary;

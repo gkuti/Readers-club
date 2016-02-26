@@ -1,4 +1,4 @@
-package com.andela.gkuti.library;
+package com.andela.gkuti.model;
 	import java.util.Date;
 public class Member {
     private String name;

@@ -1,5 +1,8 @@
 package com.andela.gkuti.library;
 
+import com.andela.gkuti.model.Book;
+import com.andela.gkuti.model.Member;
+
 import java.util.ArrayList;
 import java.util.Date;
 

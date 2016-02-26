@@ -1,6 +1,6 @@
-package com.andela.gkuti.library.test;
+package com.andela.gkuti.test;
 
-import com.andela.gkuti.library.Member;
+import com.andela.gkuti.model.Member;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import java.util.Date;

@@ -1,6 +1,11 @@
-package com.andela.gkuti.library.test;
+package com.andela.gkuti.test;
 
-import com.andela.gkuti.library.*;
+import com.andela.gkuti.library.Library;
+import com.andela.gkuti.model.Book;
+import com.andela.gkuti.model.Member;
+import com.andela.gkuti.model.Staff;
+import com.andela.gkuti.model.Student;
+import com.andela.gkuti.util.BookQueueComparator;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -102,7 +107,7 @@ public class LibraryTest {
         library.registerMember(member3);
         library.addBook(book1);
         library.borrowBook(book1, member1,member2,member3);
-        ArrayList<Member> bookList = library.getBorrowersList();
+        ArrayList<Member> bookList = library.getBorrowerList();
         assertEquals("expect borrower to be member1", member1, bookList.get(0));
         assertEquals("expect borrower to be member2", member2, bookList.get(1));
         assertEquals("expect to return", 2, bookList.size());

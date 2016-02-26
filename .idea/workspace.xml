@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abdbfda8-46d9-4f2d-a4ea-6e91d56fc486" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/Book.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/BookQueueComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/Member.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/Staff.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/checkpoint-one/com/andela/gkuti/library/test/BookQueueComparatorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/checkpoint-one/com/andela/gkuti/library/test/BookTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/checkpoint-one/com/andela/gkuti/library/test/LibraryOperationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/checkpoint-one/com/andela/gkuti/library/test/LibraryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/checkpoint-one/com/andela/gkuti/library/test/MemberTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/checkpoint-one/com/andela/gkuti/library/test/StaffTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/checkpoint-one/com/andela/gkuti/library/test/StudentTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/Book.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/BookQueueComparator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/Member.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/Staff.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/Student.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookQueueComparatorTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryOperationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/MemberTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/StaffTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/StudentTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/Library.class" afterPath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/Library.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/LibraryOperations.class" afterPath="$PROJECT_DIR$/out/production/checkpoint-one/com/andela/gkuti/library/LibraryOperations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/Library.java" afterPath="$PROJECT_DIR$/src/com/andela/gkuti/library/Library.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryTest.java" afterPath="$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andela/gkuti/library/LibraryOperations.java" afterPath="$PROJECT_DIR$/src/com/andela/gkuti/library/LibraryOperations.java" />
     </list>
     <ignored path="checkpoint-one.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,7 +44,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/checkpoint-one$BookQueueComparatorTest_and_6_more.coverage" NAME="BookQueueComparatorTest and 6 more Coverage Results" MODIFIED="1456472298412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/checkpoint-one$BookQueueComparatorTest_and_6_more__1_.coverage" NAME="BookQueueComparatorTest and 6 more (1) Coverage Results" MODIFIED="1456476747505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/checkpoint-one$BookQueueComparatorTest_and_6_more.coverage" NAME="BookQueueComparatorTest and 6 more Coverage Results" MODIFIED="1456476634073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -28,23 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StaffTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/StaffTest.java">
+      <file leaf-file-name="LibraryOperationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/LibraryOperationTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookQueueComparatorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookQueueComparatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,38 +69,10 @@
         </entry>
       </file>
       <file leaf-file-name="BookTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookTest.java">
+        <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/BookTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LibraryOperationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryOperationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="137" column="1" selection-start-line="2" selection-start-column="0" selection-end-line="137" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1828#1834#0" expanded="true" />
-                <element signature="e#2552#2558#0" expanded="true" />
-                <element signature="e#3147#3155#0" expanded="true" />
-                <element signature="e#4679#4687#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LibraryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="138" column="1" selection-start-line="2" selection-start-column="0" selection-end-line="138" selection-end-column="1" />
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/MemberTest.java">
+      <file leaf-file-name="LibraryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <caret line="109" column="56" selection-start-line="109" selection-start-column="56" selection-end-line="109" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,26 +92,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Library.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/Library.java">
+      <file leaf-file-name="BookQueueComparator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/util/BookQueueComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35172415">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/StudentTest.java">
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Book.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="1" selection-start-line="2" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemberTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/MemberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4025157">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staff.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Staff.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Member.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Member.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,13 +169,15 @@
         <option value="$PROJECT_DIR$/src/com/andela/gkuti/library/Member.java" />
         <option value="$PROJECT_DIR$/src/com/andela/gkuti/library/Student.java" />
         <option value="$PROJECT_DIR$/test/com/andela/gkuti/library/test/StaffTest.java" />
-        <option value="$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryOperationTest.java" />
         <option value="$PROJECT_DIR$/test/com/andela/gkuti/library/test/MemberTest.java" />
         <option value="$PROJECT_DIR$/test/com/andela/gkuti/library/test/StudentTest.java" />
         <option value="$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookQueueComparatorTest.java" />
         <option value="$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookTest.java" />
-        <option value="$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryTest.java" />
         <option value="$PROJECT_DIR$/src/com/andela/gkuti/library/Library.java" />
+        <option value="$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/andela/gkuti/library/model/Book.java" />
+        <option value="$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryOperationTest.java" />
+        <option value="$PROJECT_DIR$/test/com/andela/gkuti/test/LibraryOperationTest.java" />
       </list>
     </option>
   </component>
@@ -191,7 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -211,44 +236,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkpoint-one" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkpoint-one" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkpoint-one" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkpoint-one" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -275,8 +265,37 @@
       <recent name="$PROJECT_DIR$/test/com/andela/gkuti/library/test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookQueueComparatorTest and 6 more">
+  <component name="RunManager" selected="JUnit.BookQueueComparatorTest and 6 more (1)">
     <configuration default="false" name="BookQueueComparatorTest and 6 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="checkpoint-one" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns>
+        <pattern testClass="com.andela.gkuti.library.test.BookQueueComparatorTest" />
+        <pattern testClass="com.andela.gkuti.library.test.BookTest" />
+        <pattern testClass="com.andela.gkuti.library.test.LibraryOperationTest" />
+        <pattern testClass="com.andela.gkuti.library.test.LibraryTest" />
+        <pattern testClass="com.andela.gkuti.library.test.MemberTest" />
+        <pattern testClass="com.andela.gkuti.library.test.StaffTest" />
+        <pattern testClass="com.andela.gkuti.library.test.StudentTest" />
+      </patterns>
+      <method />
+    </configuration>
+    <configuration default="false" name="BookQueueComparatorTest and 6 more (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="checkpoint-one" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -295,13 +314,13 @@
       </option>
       <envs />
       <patterns>
-        <pattern testClass="com.andela.gkuti.library.test.BookQueueComparatorTest" />
-        <pattern testClass="com.andela.gkuti.library.test.BookTest" />
-        <pattern testClass="com.andela.gkuti.library.test.LibraryOperationTest" />
-        <pattern testClass="com.andela.gkuti.library.test.LibraryTest" />
-        <pattern testClass="com.andela.gkuti.library.test.MemberTest" />
-        <pattern testClass="com.andela.gkuti.library.test.StaffTest" />
-        <pattern testClass="com.andela.gkuti.library.test.StudentTest" />
+        <pattern testClass="com.andela.gkuti.test.BookQueueComparatorTest" />
+        <pattern testClass="com.andela.gkuti.test.BookTest" />
+        <pattern testClass="com.andela.gkuti.test.LibraryOperationTest" />
+        <pattern testClass="com.andela.gkuti.test.LibraryTest" />
+        <pattern testClass="com.andela.gkuti.test.MemberTest" />
+        <pattern testClass="com.andela.gkuti.test.StaffTest" />
+        <pattern testClass="com.andela.gkuti.test.StudentTest" />
       </patterns>
       <method />
     </configuration>
@@ -561,16 +580,43 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BookQueueComparatorTest and 6 more" />
+    <configuration default="false" name="Unnamed" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="checkpoint-one" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.andela.gkuti.test" />
+      <option name="MAIN_CLASS_NAME" value="com.andela.gkuti.test.BookQueueComparatorTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BookQueueComparatorTest and 6 more" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BookQueueComparatorTest and 6 more (1)" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BookQueueComparatorTest and 6 more" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BookQueueComparatorTest and 6 more (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BookQueueComparatorTest and 6 more" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="abdbfda8-46d9-4f2d-a4ea-6e91d56fc486" name="Default" comment="" />
@@ -581,24 +627,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookQueueComparatorTest_and_6_more - 2016.02.26 at 07h 45m 32s.xml">
-      <configuration name="BookQueueComparatorTest and 6 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookQueueComparatorTest_and_6_more - 2016.02.26 at 07h 47m 14s.xml">
-      <configuration name="BookQueueComparatorTest and 6 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookQueueComparatorTest_and_6_more - 2016.02.26 at 07h 50m 49s.xml">
-      <configuration name="BookQueueComparatorTest and 6 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookQueueComparatorTest_and_6_more - 2016.02.26 at 07h 51m 10s.xml">
-      <configuration name="BookQueueComparatorTest and 6 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookQueueComparatorTest_and_6_more - 2016.02.26 at 07h 52m 29s.xml">
-      <configuration name="BookQueueComparatorTest and 6 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookQueueComparatorTest_and_6_more - 2016.02.26 at 07h 53m 14s.xml">
-      <configuration name="BookQueueComparatorTest and 6 more" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookQueueComparatorTest_and_6_more - 2016.02.26 at 07h 54m 07s.xml">
       <configuration name="BookQueueComparatorTest and 6 more" configurationId="JUnit" />
     </history-entry>
@@ -611,23 +639,41 @@
     <history-entry file="BookQueueComparatorTest_and_6_more - 2016.02.26 at 08h 38m 22s.xml">
       <configuration name="BookQueueComparatorTest and 6 more" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BookQueueComparatorTest_and_6_more - 2016.02.26 at 09h 35m 15s.xml">
+      <configuration name="BookQueueComparatorTest and 6 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookQueueComparatorTest_and_6_more - 2016.02.26 at 09h 47m 49s.xml">
+      <configuration name="BookQueueComparatorTest and 6 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookQueueComparatorTest_and_6_more - 2016.02.26 at 09h 50m 35s.xml">
+      <configuration name="BookQueueComparatorTest and 6 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookQueueComparatorTest_and_6_more - 2016.02.26 at 09h 51m 34s.xml">
+      <configuration name="BookQueueComparatorTest and 6 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookQueueComparatorTest_and_6_more_(1) - 2016.02.26 at 09h 52m 29s.xml">
+      <configuration name="BookQueueComparatorTest and 6 more (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2016.02.26 at 09h 52m 16s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2359375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2359375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -640,6 +686,14 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -655,361 +709,239 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/StaffTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/StaffTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookQueueComparatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-          <folding>
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#408#409#0" expanded="false" />
-            <element signature="e#435#436#0" expanded="false" />
-            <element signature="e#453#454#0" expanded="false" />
-            <element signature="e#488#489#0" expanded="false" />
-            <element signature="e#514#515#0" expanded="false" />
-            <element signature="e#548#549#0" expanded="false" />
-            <element signature="e#576#577#0" expanded="false" />
-            <element signature="e#629#630#0" expanded="false" />
-            <element signature="e#672#673#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/Staff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="e#415#416#0" expanded="false" />
-            <element signature="e#435#436#0" expanded="false" />
-            <element signature="e#467#468#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#524#525#0" expanded="false" />
-            <element signature="e#546#547#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#483#484#0" expanded="false" />
-            <element signature="e#514#515#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#574#575#0" expanded="false" />
-            <element signature="e#608#609#0" expanded="false" />
-            <element signature="e#632#633#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/BookQueueComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/LibraryOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookQueueComparatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryOperationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1828#1834#0" expanded="true" />
-            <element signature="e#2552#2558#0" expanded="true" />
-            <element signature="e#3147#3155#0" expanded="true" />
-            <element signature="e#4679#4687#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/MemberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62068963">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51724136">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-          <folding>
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#408#409#0" expanded="false" />
-            <element signature="e#435#436#0" expanded="false" />
-            <element signature="e#453#454#0" expanded="false" />
-            <element signature="e#488#489#0" expanded="false" />
-            <element signature="e#514#515#0" expanded="false" />
-            <element signature="e#548#549#0" expanded="false" />
-            <element signature="e#576#577#0" expanded="false" />
-            <element signature="e#629#630#0" expanded="false" />
-            <element signature="e#672#673#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/Staff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39310345">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="e#415#416#0" expanded="false" />
-            <element signature="e#435#436#0" expanded="false" />
-            <element signature="e#467#468#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#524#525#0" expanded="false" />
-            <element signature="e#546#547#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51724136">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#483#484#0" expanded="false" />
-            <element signature="e#514#515#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#574#575#0" expanded="false" />
-            <element signature="e#608#609#0" expanded="false" />
-            <element signature="e#632#633#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/BookQueueComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2689655">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/LibraryOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6855346">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/BookQueueComparatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/util/BookQueueComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/BookQueueComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryOperationTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/LibraryOperationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="137" column="1" selection-start-line="2" selection-start-column="0" selection-end-line="137" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1828#1834#0" expanded="true" />
-            <element signature="e#2552#2558#0" expanded="true" />
-            <element signature="e#3147#3155#0" expanded="true" />
-            <element signature="e#4679#4687#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/LibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="1" selection-start-line="2" selection-start-column="0" selection-end-line="138" selection-end-column="1" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/MemberTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/StaffTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/MemberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/StaffTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="1" selection-start-line="2" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/library/test/BookQueueComparatorTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/BookQueueComparatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="1" selection-start-line="2" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/util/BookQueueComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andela/gkuti/library/Library.java">
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/LibraryOperationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35172415">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/LibraryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="56" selection-start-line="109" selection-start-column="56" selection-end-line="109" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/andela/gkuti/test/MemberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4025157">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
