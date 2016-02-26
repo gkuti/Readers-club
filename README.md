@@ -1,4 +1,4 @@
-**Checkpoint**
+**Checkpoint-one**
 ==============
 
 Reader's Club
