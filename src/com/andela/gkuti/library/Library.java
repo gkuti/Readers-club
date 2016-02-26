@@ -5,7 +5,9 @@ import java.util.PriorityQueue;
 
 public class Library extends LibraryOperations{
 	private ArrayList<Member> borrowerList;
+	private BookQueueComparator bookQueueComparator = new BookQueueComparator();
 	private PriorityQueue<Member> borrowerQueue;
+	private HashMap<Book, ArrayList<Member>> bookAndBorrower = new HashMap<>();;
 	public int borrowBook(Book book, Member...members) {
 		int copies = book.getNumberOfCopies();
 		if (copies > 0) {
@@ -16,23 +18,21 @@ public class Library extends LibraryOperations{
 		}
 	}
 	public int request(Book book, Member...members) {
-		BookQueueComparator bookQueueComparator = new BookQueueComparator();
-		PriorityQueue<Member> bookQueue = new PriorityQueue<Member>(bookQueueComparator);
+		borrowerQueue = new PriorityQueue<Member>(bookQueueComparator);
 		for (Member member : members) {
-			bookQueue.add(member);
+			borrowerQueue.add(member);
 		}
-		borrowerQueue = bookQueue;
-		return acceptedRequest(book, bookQueue, members);
+		return acceptedRequest(book, borrowerQueue, members);
 	}
-	public int acceptedRequest(Book book, PriorityQueue<Member> bookQueue, Member...members) {
+	public int acceptedRequest(Book book, PriorityQueue<Member> borrowerQueue, Member...members) {
 		int copies = book.getNumberOfCopies();
-		while (bookQueue.size()>copies) {
-			bookQueue.poll();
+		while (borrowerQueue.size()>copies) {
+			borrowerQueue.poll();
 		}
-		book.setNumberOfCopies(copies-bookQueue.size());
-		return bookQueue.size();
+		book.setNumberOfCopies(copies-borrowerQueue.size());
+		return borrowerQueue.size();
 	}
-	private void setBorrowerList() {
+	public void setBorrowerList() {
 		borrowerList = new ArrayList<Member>();
 		while (!borrowerQueue.isEmpty()) {
 			borrowerList.add(borrowerQueue.poll());
@@ -46,10 +46,13 @@ public class Library extends LibraryOperations{
 		setBorrowerList();
 		return borrowerList;
 	}
-	public ArrayList<Member> bookAndBorrowers(Book book){
-		HashMap<Book, ArrayList> hm = new HashMap<>();
-		hm.put(book, borrowerList);
-		return borrowerList;
+	public ArrayList<Member> getbookAndBorrowers(Book book){
+		setbookAndBorrowers(book);
+		return bookAndBorrower.get(book);
+
+	}
+	public void setbookAndBorrowers(Book book){
+		bookAndBorrower.put(book, getBorrowersList());
 	}
 
 }
