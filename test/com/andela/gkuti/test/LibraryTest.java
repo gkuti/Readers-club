@@ -47,6 +47,8 @@ public class LibraryTest {
         assertEquals("expect to return 2", 2, library.borrowBook(book1, member1,member2,member3));
         assertEquals("expect to return 1", 1, library.borrowBook(book2, member1,member2,member3));
         assertEquals("expect to return 0", 0, library.borrowBook(book3, member2,member3));
+        Book book5 = new Book("The Trials of Brother Jero and The Strong Breed", "978-0822210900", "Wole Soyinka", 4);
+        assertEquals("expect to return 0", 0, library.borrowBook(book5, member2,member3));
     }
 
     @Test
