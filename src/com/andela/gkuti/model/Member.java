@@ -1,5 +1,10 @@
 package com.andela.gkuti.model;
 	import java.util.Date;
+
+/**
+ * Member class
+ */
+
 public class Member {
     private String name;
     private String address;
