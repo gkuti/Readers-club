@@ -91,11 +91,12 @@ public class LibraryTest {
         library.registerMember(member1);
         library.registerMember(member2);
         library.registerMember(member3);
-        library.addBook(book1);
         book1 = new Book("Harry Porter", "978-0439139601", "JK Rolins", 2);
+        library.addBook(book1);
         library.borrowBook(book1, member1,member2,member3);
         assertEquals("expect borrower to be student object", member1, library.borrower(0));
         book1 = new Book("Harry Porter", "978-0439139601", "JK Rolins", 2);
+        library.addBook(book1);
         library.borrowBook(book1, member1,member2,member3);
         assertEquals("expect borrower to be staff object", member2, library.borrower(1));
     }
