@@ -1,10 +1,8 @@
-package com.andela.gkuti.library.test;
-
+package com.andela.gkuti.test;
+import com.andela.gkuti.model.Member;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
 import java.util.Date;
-
 import static org.junit.Assert.*;
 
 public class MemberTest {

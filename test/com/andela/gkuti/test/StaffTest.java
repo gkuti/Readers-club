@@ -1,9 +1,9 @@
-package com.andela.gkuti.library.test;
+package com.andela.gkuti.test;
 
+import com.andela.gkuti.model.Staff;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 
 public class StaffTest {
     static Staff staff;

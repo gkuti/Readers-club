@@ -1,6 +1,13 @@
-package com.andela.gkuti.library;
-
+package com.andela.gkuti.util;
+import com.andela.gkuti.model.Member;
+import com.andela.gkuti.model.Staff;
+import com.andela.gkuti.model.Student;
 import java.util.Comparator;
+
+/**
+ * BookQueueComparator class implement Comparator
+ *
+ */
 
 public class BookQueueComparator implements Comparator<Member>{
 	@Override

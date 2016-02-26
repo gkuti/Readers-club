@@ -1,11 +1,16 @@
-package com.andela.gkuti.library.test;
+package com.andela.gkuti.test;
 
+import com.andela.gkuti.library.Library;
+import com.andela.gkuti.model.Book;
+import com.andela.gkuti.model.Member;
+import com.andela.gkuti.model.Staff;
+import com.andela.gkuti.model.Student;
+import com.andela.gkuti.util.BookQueueComparator;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.PriorityQueue;
-
 import static org.junit.Assert.*;
 
 public class LibraryTest {
@@ -27,7 +32,10 @@ public class LibraryTest {
         bookQueueComparator = new BookQueueComparator();
         bookQueue = new PriorityQueue<Member>(bookQueueComparator);
     }
-
+    @After
+    public void tearDown() throws Exception {
+        library = null;
+    }
     @Test
     public void testBorrowBook() throws Exception {
         library.registerMember(member1);
@@ -39,6 +47,8 @@ public class LibraryTest {
         assertEquals("expect to return 2", 2, library.borrowBook(book1, member1,member2,member3));
         assertEquals("expect to return 1", 1, library.borrowBook(book2, member1,member2,member3));
         assertEquals("expect to return 0", 0, library.borrowBook(book3, member2,member3));
+        Book book5 = new Book("The Trials of Brother Jero and The Strong Breed", "978-0822210900", "Wole Soyinka", 4);
+        assertEquals("expect to return 0", 0, library.borrowBook(book5, member2,member3));
     }
 
     @Test
@@ -83,11 +93,12 @@ public class LibraryTest {
         library.registerMember(member1);
         library.registerMember(member2);
         library.registerMember(member3);
-        library.addBook(book1);
         book1 = new Book("Harry Porter", "978-0439139601", "JK Rolins", 2);
+        library.addBook(book1);
         library.borrowBook(book1, member1,member2,member3);
         assertEquals("expect borrower to be student object", member1, library.borrower(0));
         book1 = new Book("Harry Porter", "978-0439139601", "JK Rolins", 2);
+        library.addBook(book1);
         library.borrowBook(book1, member1,member2,member3);
         assertEquals("expect borrower to be staff object", member2, library.borrower(1));
     }
@@ -99,15 +110,47 @@ public class LibraryTest {
         library.registerMember(member3);
         library.addBook(book1);
         library.borrowBook(book1, member1,member2,member3);
-        ArrayList<Member> bookList = library.getBorrowersList();
+        ArrayList<Member> bookList = library.getBorrowerList();
         assertEquals("expect borrower to be member1", member1, bookList.get(0));
         assertEquals("expect borrower to be member2", member2, bookList.get(1));
         assertEquals("expect to return", 2, bookList.size());
     }
-
     @Test
-    public void testBookAndBorrowers() throws Exception {
-
+    public void testGetbookAndBorrowers() throws Exception {
+        library.registerMember(member1);
+        library.registerMember(member2);
+        library.registerMember(member3);
+        library.addBook(book1);
+        library.borrowBook(book1, member1,member2,member3);
+        ArrayList<Member> borrowerList = library.getbookAndBorrowers(book1);
+        assertNotNull(library.getbookAndBorrowers(book1));
+        assertEquals("expect borrower to be member1", member1, borrowerList.get(0));
+        assertEquals("expect borrower to be member2", member2, borrowerList.get(1));
+        assertEquals("expect to return", 2, borrowerList.size());
+        library.addBook(book2);
+        library.borrowBook(book2, member1,member2,member3);
+        ArrayList<Member> borrowerList2 = library.getbookAndBorrowers(book2);
+        assertNotNull(library.getbookAndBorrowers(book2));
+        assertEquals("expect borrower to be member2", member2, borrowerList2.get(0));
+        assertEquals("expect to return", 1, borrowerList2.size());
     }
 
+   @Test
+    public void testSetbookAndBorrowers() throws Exception {
+        library.registerMember(member1);
+        library.registerMember(member2);
+        library.registerMember(member3);
+        library.addBook(book1);
+        library.borrowBook(book1, member1,member2,member3);
+        assertNotNull(library.getbookAndBorrowers(book1));
+    }
+    @Test
+    public void isBookInLibrary() throws Exception {
+        library.addBook(book1);
+        library.addBook(book2);
+        library.addBook(book3);
+        Book book5 = new Book("The Trials of Brother Jero and The Strong Breed", "978-0822210900", "Wole Soyinka", 4);
+        assertFalse("expect to return false", library.isBookInLibrary(book5));
+        assertTrue("expect to return true", library.isBookInLibrary(book2));
+    }
 }

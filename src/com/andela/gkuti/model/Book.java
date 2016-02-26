@@ -1,10 +1,24 @@
-package com.andela.gkuti.library;
+package com.andela.gkuti.model;
+
+/**
+ * Book class
+ *
+ */
 
 public class Book {
 	private String title;
 	private String isbn;
 	private String nameOfAuthor;
 	private int numberOfCopies;
+
+	/**Create a new instance of Book.
+	 *
+	 * @param title title of the book
+	 * @param isbn isbn of the book
+	 * @param nameOfAuthor book author name
+	 * @param numberOfCopies number of available copies
+	 */
+
 	public Book(String title, String isbn, String nameOfAuthor, int numberOfCopies) {
 		this.title = title;
 		this.isbn = isbn;
