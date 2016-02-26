@@ -8,11 +8,11 @@ Reader's Club
 ----------
 **About**
 ========
-The Reader's club consists of Members who are either Staff or Student. In the club any member can borrow boo, the only restrain is when two or more members wish to borrow the same book.
+The Reader's club consists of Members who are either Staff or Student. In the club any member can borrow a book, the only restrain is when two or more members wish to borrow the same book.
 Based on the number of copies available the following rules is put into consideration.
 
- - If the borrowers are both staff, an older staff will have higher precedence to the newer.
- - If the borrowers are both student, an older staff will have higher precedence to the newer.
+ - If the borrowers are both staff, a staff that has an older registeration date will have higher precedence to the newer.
+ - If the borrowers are both student, a student that has an older registeration date will have higher precedence to the newer.
  - A staff will have higher precedence over a student.
 
 
@@ -30,7 +30,7 @@ Based on the number of copies available the following rules is put into consider
 
 Member class
 ------------
-This class serves a parent class for staff and student,  it sets the generic properties common to the child classes.
+This class serves as parent class for staff and student,  it sets the generic properties common to the child class.
 Staff class
 ------------
 This class inherit from the Member class and set some other attributes like salary, working hours etc.
@@ -39,13 +39,13 @@ Student class
 This class inherit from the Member class and set some other attributes like institution, subject of interest etc.
 Book class
 ------------
-This class sets a book properties like title, author, isbn and copies available.
+This class sets book properties like title, author, isbn and copies available.
 LibraryOperations class
 ------------
 This class serves as a parent class for the Library and has methods for creating member, removing book, removing member, total member etc.
 Library class
 ------------
-This class inherit from the LibraryOperations class method associated with library operations like creating member, removing book, removing member, total member etc. It set how books are borrowed, shows who borrowed them etc.
+This class inherit from the LibraryOperations class has method associated with library operations like creating member, removing book, removing member, total member etc. It set how books are borrowed and shows who borrowed them etc.
 BookQueueComparator class
 ------------
 This class defines how the borrower queue showed be sorted based on the member type and date of registration.
@@ -92,7 +92,7 @@ The Library methods
 
 > borrowBook(Book book, Member...members)
 
-public method to borrow book from the library and takes the book and number members as argument.
+public method to borrow book from the library, it takes the book and the number of members as argument.
 
 > library.getbookAndBorrowers(book);
 
