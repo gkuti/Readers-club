@@ -1,5 +1,4 @@
 package com.andela.gkuti.test;
-
 import com.andela.gkuti.model.Member;
 import org.junit.BeforeClass;
 import org.junit.Test;
