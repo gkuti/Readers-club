@@ -26,13 +26,15 @@ public class Library extends LibraryOperations{
 	 */
 
 	public int borrowBook(Book book, Member...members) {
-		int copies = book.getNumberOfCopies();
-		if (copies > 0) {
-			return request(book, members);
+		if (isBookInLibrary(book) == true) {
+			int copies = book.getNumberOfCopies();
+			if (copies > 0) {
+				return request(book, members);
+			} else {
+				return 0;
+			}
 		}
-		else {
-			return 0;
-		}
+		return 0;
 	}
 
 	/**Receives a book, the member(s) that want to borrow and add them to a queue.
@@ -118,5 +120,14 @@ public class Library extends LibraryOperations{
 	public void setbookAndBorrowers(Book book){
 		bookAndBorrower.put(book, getBorrowerList());
 	}
-
+	public boolean isBookInLibrary(Book book){
+		boolean value = false;
+		ArrayList<Book> bookList = getBookList();
+		for (Book availableBook: bookList) {
+			if (book == availableBook) {
+				value = true;
+			}
+		}
+		return value;
+	}
 }
