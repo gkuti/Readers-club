@@ -8,11 +8,11 @@ Reader's Club
 ----------
 **About**
 ========
-The Reader's club consists of Members who are either Staff or Student. In the club any member can borrow a book, the only restrain is when two or more members wish to borrow the same book.
+The Reader's club consists of Members who are either Staff or Student. In the club any member can borrow a book, the only constraint is when two or more members wish to borrow the same book.
 Based on the number of copies available the following rules is put into consideration.
 
- - If the borrowers are both staff, a staff that has an older registeration date will have higher precedence to the newer.
- - If the borrowers are both student, a student that has an older registeration date will have higher precedence to the newer.
+ - If the borrowers are both staff, a staff that has an older registration date will have higher precedence to the newer.
+ - If the borrowers are both student, a student that has an older registration date will have higher precedence to the newer.
  - A staff will have higher precedence over a student.
 
 
@@ -63,12 +63,12 @@ Model constructors
 
 **Member**
 
-> Member staff = new Staff("Kayode Olowu", "1 boyega street, sogunle", 2, 45000, 9, "Accounting");
-> Member student = new Student("Samuel Okonkwo", "37 calabar street, masha", 3, "Laspotech", "History", "Art");
+```Member staff = new Staff("Kayode Olowu", "1 boyega street, sogunle", 2, 45000, 9, "Accounting");
+Member student = new Student("Samuel Okonkwo", "37 calabar street, masha", 3, "Laspotech", "History", "Art");```
 
 **Book**
 
-> Book book = new Book("Harry Porter", "978-0439139601", "JK Rolins", 2);
+```Book book = new Book("Harry Porter", "978-0439139601", "JK Rolins", 2);```
 
 
 ----------
@@ -79,26 +79,26 @@ Model constructors
 
  
 
-> library.registerMember(staff);
+```library.registerMember(staff);```
 
  - add a new book to the library.
 
-> library.addBook(book);
+```library.addBook(book);```
 
 ----------
 
 The Library methods
 -------------------
 
-> borrowBook(Book book, Member...members)
+```borrowBook(Book book, Member...members)```
 
 public method to borrow book from the library, it takes the book and the number of members as argument.
 
-> library.getbookAndBorrowers(book);
+```library.getbookAndBorrowers(book);```
 
 public method to return list of borrowers of a particular book.
 
-> library.isBookInLibrary(book2);
+```library.isBookInLibrary(book2);```
 
 public method to check if a book is present in the library.
 
@@ -108,22 +108,22 @@ public method to check if a book is present in the library.
 **OTHER METHODS**
 --------------------
 
-> library.borrower(index);
+```library.borrower(index);```
 
 return borrower at the particular position.
 
-> getBorrowersList( );
+```getBorrowersList( );```
 
 return list of borrower.
 
-> isBookInLibrary( book )
+```isBookInLibrary( book )```
 
 check if a book is in the library.
 
-> AddBookList( ArrayList )
+```AddBookList( ArrayList )```
 
 adds books to the library from a list
 
-> AddMemberList( ArrayList )
+```AddMemberList( ArrayList )```
 
 adds members to the library from a list
