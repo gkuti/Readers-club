@@ -2,7 +2,6 @@ package com.andela.gkuti.model;
 
 /**
  * Student class
- *
  */
 
 public class Student extends Member {
@@ -10,14 +9,15 @@ public class Student extends Member {
     private String institution;
     private String department;
 
-    /**Create a new instance of Student.
+    /**
+     * Create a new instance of Student.
      *
-     * @param name the name of member
-     * @param address address of member
-     * @param memberId the member id
-     * @param institution the institution of student
+     * @param name              the name of member
+     * @param address           address of member
+     * @param memberId          the member id
+     * @param institution       the institution of student
      * @param subjectOfInterest subject of interest
-     * @param department department of student
+     * @param department        department of student
      */
 
     public Student(String name, String address, int memberId, String institution, String subjectOfInterest, String department) {
@@ -39,5 +39,4 @@ public class Student extends Member {
     public String getDepartment() {
         return department;
     }
-
 }

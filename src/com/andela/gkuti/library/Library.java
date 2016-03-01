@@ -1,31 +1,31 @@
 package com.andela.gkuti.library;
+
 import com.andela.gkuti.model.Book;
 import com.andela.gkuti.util.BookQueueComparator;
 import com.andela.gkuti.model.Member;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
 /**
  * Library class extends LibraryOperations
- *
  */
 
-public class Library extends LibraryOperations{
+public class Library extends LibraryOperations {
     private ArrayList<Member> borrowerList;
     private BookQueueComparator bookQueueComparator = new BookQueueComparator();
     private PriorityQueue<Member> borrowerQueue;
     private HashMap<Book, ArrayList<Member>> bookAndBorrower = new HashMap<>();
 
-    /**Receives a book and the member(s) that want to borrow.
+    /**
+     * Receives a book and the member(s) that want to borrow.
      *
-     * @param book the book to be borrowed
+     * @param book    the book to be borrowed
      * @param members the member(s) that want to borrow the book
      * @return the number of copy borrowed
      */
 
-    public int borrowBook(Book book, Member...members) {
+    public int borrowBook(Book book, Member... members) {
         if (isBookInLibrary(book)) {
             int copies = book.getNumberOfCopies();
             if (copies > 0) {
@@ -35,14 +35,15 @@ public class Library extends LibraryOperations{
         return 0;
     }
 
-    /**Receives a book, the member(s) that want to borrow and add them to a queue.
+    /**
+     * Receives a book, the member(s) that want to borrow and add them to a queue.
      *
-     * @param book the book to be borrowed
+     * @param book    the book to be borrowed
      * @param members the member(s) that want to borrow the book
      * @return the number of copy borrowed
      */
 
-    public int request(Book book, Member...members) {
+    public int request(Book book, Member... members) {
         borrowerQueue = new PriorityQueue<Member>(bookQueueComparator);
         for (Member member : members) {
             borrowerQueue.add(member);
@@ -50,25 +51,26 @@ public class Library extends LibraryOperations{
         return acceptedRequest(book, borrowerQueue, members);
     }
 
-    /**Return the number of copies borrowed.
+    /**
+     * Return the number of copies borrowed.
      *
-     * @param book the book to be borrowed
+     * @param book          the book to be borrowed
      * @param borrowerQueue the queue of member(s) that want to borrow the specified book
-     * @param members the member(s) that want to borrow
+     * @param members       the member(s) that want to borrow
      * @return the size of the queue after removing ineligible member(s)
      */
 
-    public int acceptedRequest(Book book, PriorityQueue<Member> borrowerQueue, Member...members) {
+    public int acceptedRequest(Book book, PriorityQueue<Member> borrowerQueue, Member... members) {
         int copies = book.getNumberOfCopies();
-        while (borrowerQueue.size()>copies) {
+        while (borrowerQueue.size() > copies) {
             borrowerQueue.poll();
         }
-        book.setNumberOfCopies(copies-borrowerQueue.size());
+        book.setNumberOfCopies(copies - borrowerQueue.size());
         return borrowerQueue.size();
     }
 
-    /**Set the borrowerList from the borrowerQueue.
-     *
+    /**
+     * Set the borrowerList from the borrowerQueue.
      */
 
     public void setBorrowerList() {
@@ -78,7 +80,8 @@ public class Library extends LibraryOperations{
         }
     }
 
-    /**Return the borrower at the specified index.
+    /**
+     * Return the borrower at the specified index.
      *
      * @param position the index of the member
      * @return the Member at the specified index
@@ -89,7 +92,8 @@ public class Library extends LibraryOperations{
         return borrowerList.get(position);
     }
 
-    /**Return the borrowerList.
+    /**
+     * Return the borrowerList.
      *
      * @return ArrayList of borrower
      */
@@ -99,35 +103,38 @@ public class Library extends LibraryOperations{
         return borrowerList;
     }
 
-    /**Return the borrowers of the specified book.
+    /**
+     * Return the borrowers of the specified book.
      *
      * @param book
      * @return HashMap of borrowers
      */
 
-    public ArrayList<Member> getbookAndBorrowers(Book book){
+    public ArrayList<Member> getbookAndBorrowers(Book book) {
         setbookAndBorrowers(book);
         return bookAndBorrower.get(book);
     }
 
-    /**Set the book key to map the borrowerList
+    /**
+     * Set the book key to map the borrowerList
      *
      * @param book the book to be specified as key
      */
 
-    public void setbookAndBorrowers(Book book){
+    public void setbookAndBorrowers(Book book) {
         bookAndBorrower.put(book, getBorrowerList());
     }
 
-    /**Check if the specified book is the Library
+    /**
+     * Check if the specified book is the Library
      *
      * @param book the book to check
      * @return true if book is in Library
      */
 
-    public boolean isBookInLibrary(Book book){
+    public boolean isBookInLibrary(Book book) {
         ArrayList<Book> bookList = getBookList();
-        for (Book availableBook: bookList) {
+        for (Book availableBook : bookList) {
             if (book == availableBook) {
                 return true;
             }
