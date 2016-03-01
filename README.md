@@ -63,12 +63,18 @@ Model constructors
 
 **Member**
 
-`Member staff = new Staff("Kayode Olowu", "1 boyega street, sogunle", 2, 45000, 9, "Accounting");
-Member student = new Student("Samuel Okonkwo", "37 calabar street, masha", 3, "Laspotech", "History", "Art");`
+```java
+Member staff = new Staff("Kayode Olowu", "1 boyega street, sogunle", 2, 45000, 9, "Accounting");
+```
+```java
+Member student = new Student("Samuel Okonkwo", "37 calabar street, masha", 3, "Laspotech", "History", "Art");
+```
 
 **Book**
 
-`Book book = new Book("Harry Porter", "978-0439139601", "JK Rolins", 2);`
+```java
+Book book = new Book("Harry Porter", "978-0439139601", "JK Rolins", 2);
+```
 
 
 ----------
@@ -79,26 +85,35 @@ Member student = new Student("Samuel Okonkwo", "37 calabar street, masha", 3, "L
 
 
 
-`library.registerMember(staff);`
-
+```java
+Library.registerMember(staff);
+```
  - add a new book to the library.
 
-`library.addBook(book);`
+```java
+Library.addBook(book);
+```
 
 ----------
 
 The Library methods
 -------------------
 
-`borrowBook(Book book, Member...members)`
+```java
+borrowBook(Book book, Member...members)
+```
 
 public method to borrow book from the library, it takes the book and the number of members as argument.
 
-`library.getbookAndBorrowers(book);`
+```java
+getbookAndBorrowers(book);
+```
 
 public method to return list of borrowers of a particular book.
 
-`library.isBookInLibrary(book2);`
+```java
+isBookInLibrary(book2);
+```
 
 public method to check if a book is present in the library.
 
@@ -108,22 +123,30 @@ public method to check if a book is present in the library.
 **OTHER METHODS**
 --------------------
 
-`library.borrower(index);`
+```java
+borrower(index);
+```
 
 return borrower at the particular position.
 
-`getBorrowersList( );`
+```java
+getBorrowersList( );
+```
 
 return list of borrower.
 
-`isBookInLibrary( book )`
+```java
+isBookInLibrary( book )
+```
 
 check if a book is in the library.
-
-`AddBookList( ArrayList )`
-
+```java
+AddBookList( ArrayList )
+```
 adds books to the library from a list
 
-`AddMemberList( ArrayList )`
+```java
+AddMemberList( ArrayList )
+```
 
 adds members to the library from a list
