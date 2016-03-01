@@ -1,5 +1,5 @@
 package com.andela.gkuti.model;
-	import java.util.Date;
+    import java.util.Date;
 
 /**
  * Member class

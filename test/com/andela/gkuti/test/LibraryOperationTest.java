@@ -14,12 +14,13 @@ import java.util.PriorityQueue;
 import static org.junit.Assert.*;
 
 public class LibraryOperationTest {
-    Book book1,book2,book3,book4;
-    Member member1,member2,member3;
+    Book book1, book2, book3, book4;
+    Member member1, member2, member3;
     ArrayList<Book> bookList;
     LibraryOperations libraryOperations;
     PriorityQueue<Member> bookQueue;
     BookQueueComparator bookQueueComparator;
+
     @Before
     public void setUp() throws Exception {
         libraryOperations = new Library();
@@ -39,6 +40,7 @@ public class LibraryOperationTest {
     public void tearDown() throws Exception {
         libraryOperations = null;
     }
+
     @Test
     public void testAddBook() throws Exception {
         assertTrue("expect to return true", libraryOperations.addBook(book1));
@@ -118,26 +120,5 @@ public class LibraryOperationTest {
         memberDeleteList.add(member2);
         assertEquals("expect to return 2", 2, libraryOperations.removeMemberList(memberDeleteList));
         assertEquals("expect to return 1", 1, libraryOperations.totalMember());
-    }
-
-    @Test
-    public void testTotalMember() throws Exception {
-        libraryOperations.registerMember(member1);
-        libraryOperations.registerMember(member2);
-        libraryOperations.registerMember(member3);
-        assertEquals("expect to return 3", 3, libraryOperations.totalMember());
-    }
-
-    @Test
-    public void testGetBookList() throws Exception {
-        libraryOperations.addBook(book1);
-        libraryOperations.addBook(book2);
-        libraryOperations.addBook(book4);
-        ArrayList<Book> bookList = libraryOperations.getBookList();
-        assertNotNull("List shouldn't be null", bookList);
-        assertEquals("expect to return 3", 3, bookList.size());
-        assertEquals("expect to return to book1", book1, bookList.get(0));
-        assertEquals("expect to return to book2", book2, bookList.get(1));
-        assertEquals("expect to return to book4", book4, bookList.get(2));
     }
 }

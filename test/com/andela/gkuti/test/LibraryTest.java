@@ -153,4 +153,32 @@ public class LibraryTest {
         assertFalse("expect to return false", library.isBookInLibrary(book5));
         assertTrue("expect to return true", library.isBookInLibrary(book2));
     }
+    @Test
+    public void testReturnLibrary() throws Exception {
+        library.registerMember(member1);
+        library.registerMember(member2);
+        library.registerMember(member3);
+        library.addBook(book1);
+        library.borrowBook(book1, member1,member2,member3);
+        assertEquals("expect to return 2", 2, library.returnBook(book1, member1,member2));
+        library.borrowBook(book1, member1,member2,member3);
+        assertEquals("expect to return 1", 1, library.returnBook(book1,member2));
+    }
+    @Test
+    public void testUpdateLibrary() throws Exception {
+        library.registerMember(member1);
+        library.registerMember(member2);
+        library.registerMember(member3);
+        library.addBook(book1);
+        library.borrowBook(book1, member1,member2,member3);
+        library.returnBook(book1, member1);
+        assertEquals("expect to return 1",1, book1.getNumberOfCopies());
+        library.registerMember(member1);
+        library.registerMember(member2);
+        library.registerMember(member3);
+        library.addBook(book4);
+        library.borrowBook(book4, member1,member2,member3);
+        library.returnBook(book4, member1,member3);
+        assertEquals("expect to return 3",3, book4.getNumberOfCopies());
+    }
 }
