@@ -1,5 +1,6 @@
 package com.andela.gkuti.model;
-	import java.util.Date;
+
+import java.util.Date;
 
 /**
  * Member class
@@ -11,7 +12,7 @@ public class Member {
     private Date registrationDate;
     private int memberId;
 
-    public Member(String name, String address,int memberId) {
+    public Member(String name, String address, int memberId) {
         this.name = name;
         this.address = address;
         this.memberId = memberId;
@@ -36,5 +37,4 @@ public class Member {
     public int getMemberid() {
         return memberId;
     }
-
-    }
+}
