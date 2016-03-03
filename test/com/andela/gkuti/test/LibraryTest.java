@@ -14,7 +14,7 @@ import java.util.PriorityQueue;
 import static org.junit.Assert.*;
 
 public class LibraryTest {
-    Book book1,book2,book3,book4;
+    Book book1,book2,book4;
     Member member1,member2,member3;
     Library library;
     PriorityQueue<Member> bookQueue;
@@ -27,7 +27,6 @@ public class LibraryTest {
         member3 = new Student("Samuel Okonkwo", "37 calabar street, masha", 3, "Laspotech", "History", "Art");
         book1 = new Book("Harry Porter", "978-0439139601", "JK Rolins", 2);
         book2 = new Book("The 3 Musketeers", "978-1853260407", "Alexandre Dumas", 1);
-        book3 = new Book("Spatial Mathematics", "978-1466505322", "Sandra Lach A.", 0);
         book4 = new Book("The Trials of Brother Jero and The Strong Breed", "978-0822210900", "Wole Soyinka", 4);
         bookQueueComparator = new BookQueueComparator();
         bookQueue = new PriorityQueue<Member>(bookQueueComparator);
@@ -43,10 +42,10 @@ public class LibraryTest {
         library.registerMember(member3);
         library.addBook(book1);
         library.addBook(book2);
-        library.addBook(book3);
+        library.addBook(book4);
         assertEquals("expect to return 2", 2, library.borrowBook(book1, member1,member2,member3));
         assertEquals("expect to return 1", 1, library.borrowBook(book2, member1,member2,member3));
-        assertEquals("expect to return 0", 0, library.borrowBook(book3, member2,member3));
+        assertEquals("expect to return 2", 2, library.borrowBook(book4, member2,member3));
         Book book5 = new Book("The Trials of Brother Jero and The Strong Breed", "978-0822210900", "Wole Soyinka", 4);
         assertEquals("expect to return 0", 0, library.borrowBook(book5, member2,member3));
     }
@@ -71,17 +70,17 @@ public class LibraryTest {
         library.registerMember(member3);
         library.addBook(book1);
         library.addBook(book2);
-        library.addBook(book3);
         bookQueue.add(member1);
         bookQueue.add(member2);
         bookQueue.add(member3);
         assertEquals("expect to return 2", 2, library.acceptedRequest(book1, bookQueue, member1,member2,member3));
         assertEquals("expect to return 1", 1, library.acceptedRequest(book2, bookQueue, member1,member2,member3));
-        book2 = new Book("The 3 Musketeers", "978-1853260407", "Alexandre Dumas", 0);
+        book2 = new Book("The 3 Musketeers", "978-1853260407", "Alexandre Dumas", 1);
         bookQueue.add(member1);
         bookQueue.add(member2);
         bookQueue.add(member3);
-        assertEquals("expect to return 0", 0, library.acceptedRequest(book2, bookQueue, member1));
+        assertEquals("expect to return 1", 1, library.acceptedRequest(book2, bookQueue, member1));
+        bookQueue = new PriorityQueue<Member>(bookQueueComparator);
         bookQueue.add(member1);
         bookQueue.add(member2);
         bookQueue.add(member3);
@@ -140,15 +139,15 @@ public class LibraryTest {
         library.registerMember(member1);
         library.registerMember(member2);
         library.registerMember(member3);
-        library.addBook(book1);
-        library.borrowBook(book1, member1,member2,member3);
-        assertNotNull(library.getbookAndBorrowers(book1));
+        library.addBook(book4);
+        library.borrowBook(book4, member1,member2,member3);
+        ArrayList<Member> borrowerList = library.getbookAndBorrowers(book4);
+        assertNotNull(borrowerList);
+        assertEquals("expect borrower to be member3", member2, borrowerList.get(2));
     }
     @Test
     public void isBookInLibrary() throws Exception {
-        library.addBook(book1);
         library.addBook(book2);
-        library.addBook(book3);
         Book book5 = new Book("The Trials of Brother Jero and The Strong Breed", "978-0822210900", "Wole Soyinka", 4);
         assertFalse("expect to return false", library.isBookInLibrary(book5));
         assertTrue("expect to return true", library.isBookInLibrary(book2));
