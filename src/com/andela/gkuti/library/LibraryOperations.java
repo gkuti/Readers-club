@@ -22,11 +22,7 @@ public class LibraryOperations {
      */
 
     public boolean addBook(Book book) {
-        if (book.getNumberOfCopies() > 0) {
-            bookList.add(book);
-            return true;
-        }
-        return false;
+        return bookList.add(book);
     }
 
     /**

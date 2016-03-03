@@ -13,6 +13,7 @@ public class StaffTest {
     static int salary = 5000;
     static int workingHours = 8;
     static String position = "Office Assistant";
+
     @BeforeClass
     public static void setUp() throws Exception {
         staff = new Staff(name, address, memberId, salary, workingHours, position);
