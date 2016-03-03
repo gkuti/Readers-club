@@ -3,6 +3,7 @@ package com.andela.gkuti.library;
 import com.andela.gkuti.model.Book;
 import com.andela.gkuti.util.BookQueueComparator;
 import com.andela.gkuti.model.Member;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.PriorityQueue;
@@ -141,29 +142,32 @@ public class Library extends LibraryOperations {
         }
         return false;
     }
-    /**Return the number of book copies returned
+
+    /**
+     * Return the number of book copies returned
      *
-     * @param book the book to be returned
+     * @param book    the book to be returned
      * @param members the member(s) that which to borrow it
      * @return the copies of the book returned
      */
 
-    public int returnBook(Book book, Member ...members) {
+    public int returnBook(Book book, Member... members) {
         int copies = 0;
         ArrayList<Member> borrowers = getbookAndBorrowers(book);
         for (Member member : members) {
             borrowers.remove(member);
-            copies ++;
+            copies++;
         }
         updateLibrary(book, borrowers, copies);
         return copies;
     }
 
-    /**Update the library after a book was returned
+    /**
+     * Update the library after a book was returned
      *
-     * @param book the book that was returned
+     * @param book      the book that was returned
      * @param borrowers the borrowers yet to return
-     * @param copies the number of book copies returned
+     * @param copies    the number of book copies returned
      */
 
     public void updateLibrary(Book book, ArrayList<Member> borrowers, int copies) {
@@ -171,8 +175,7 @@ public class Library extends LibraryOperations {
         book.setNumberOfCopies(newCopies);
         if (borrowers.size() > 0) {
             bookAndBorrower.put(book, borrowers);
-        }
-        else{
+        } else {
             bookAndBorrower.remove(book);
         }
     }
